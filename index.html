@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rinterio.com</title>
+
+    <!-- DaisyUi and Tailwind CDN starts -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- DaisyUi and Tailwind CDN ends -->
+
+    <!-- Font CDN starts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Font CDN ends -->
+
+    <!-- fontawesome cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fontaweosme cdn ends -->
+
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        but: '#ABEF5F',
+                    }
+                }
+            }
+        }
+    </script>
+
+
+</head>
+
+<body class="bg-[#F6F6F6]">
+
+    <!-- header starts -->
+
+    <header class="md:container md:max-w-[90%] mx-auto py-3">
+
+        <!-- navbar section starts -->
+
+        <nav class="flex items-center lg:justify-around justify-between px-4">
+
+            <!-- rinrterio logo -->
+
+            <div class="flex items-center space-x-2 lg:justify-normal">
+                <div class="rounded-full bg-but w-8 h-8 flex items-center justify-center">
+                   <img class="h-3 w-3" src="assets/up-right-arrow.png" alt="">
+                </div>
+                <h1 class="font-extrabold text-3xl">Rinterio</h1>
+            </div>
+
+            <!-- rinterio logo ends -->
+
+            <div class="hidden lg:block">
+
+                <ul class="flex items-center justify-between gap-3">
+
+                    <li><a class="font-bold">Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Porfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="lg:flex items-center justify-between gap-3 hidden">
+
+                <div class="bg-[#FFFFFF] rounded-full w-8 h-8 flex items-center justify-center">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="bg-[#FFFFFF] rounded-full w-8 h-8 flex items-center justify-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                 <button class="flex bg-[#ABEF5F] rounded-3xl gap-2 items-center p-2">
+                    <h3 class="text-xl font-bold">Book Consult</h3>
+                    <div class="rounded-full bg-black w-8 h-8 flex items-center justify-center">
+                        <img class="h-3 w-3" src="assets/up-right-arrow1.png" alt="">
+                     </div>
+
+                 </button>
+            </div>
+
+            <!-- daisyUi dropdown for small devices -->
+
+            <div class="dropdown dropdown-end lg:hidden">
+                <div tabindex="0" role="button" class="bg-[#FFFFFF] rounded-full w-8 h-8 flex items-center justify-center"> <i class="fa-solid fa-bars"></i> </div>
+                <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+
+                    <li><a class="font-bold">Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Porfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+
+                </ul>
+              </div>
+
+              <!-- daisyui dropdown end -->
+
+        </nav>
+
+        <!-- navbar section ends -->
+
+    </header>
+
+    <!-- header ends -->
+
+
+    <!-- main starts -->
+
+    <main>
+
+
+    </main>
+
+    <!-- main ends -->
+
+    <!-- footer starts -->
+
+    <footer>
+
+
+    </footer>
+
+    <!-- footer ends -->
+
+</body>
+
+</html>
